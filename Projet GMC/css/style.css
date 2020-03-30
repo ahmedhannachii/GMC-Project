@@ -1,0 +1,241 @@
+body{
+    margin : 0 ; 
+}
+/* navbar and footer */
+.bg{
+    background: linear-gradient(90deg,rgba(7,161,164,1) 0,rgba(9,9,121,1) 37%,rgba(96,7,134,1) 65%,rgba(155,6,137,1) 89%);
+}
+
+.logo{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    border-radius: 9px;
+    margin-right: 55px;
+    height: 60px;
+    width: 70px;
+}
+
+.nav-item{
+    color: white;
+    font-size: 22px;
+    letter-spacing: initial;
+}
+
+.nav-link a:hover{
+    color: black !important;
+}
+
+.contact-bg{
+    background-image: url("../res/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+}
+/* text-contact*/
+.text{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    /* border: 3px solid #f1f1f1; */
+    font-weight: bold;
+    position: relative;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 82%;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+/*Contact*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+}
+#contact{
+    font-family: 'Teko', sans-serif;
+    padding-top: 230px;
+    height: 550px;  
+}
+.contact-section .col-md-6{
+    width: 50%;
+} 
+.form-line{
+    border-right: 1px solid #B29999;
+    height: 335px;
+}
+.form-group{
+    margin-top: 10px;
+}
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+.form-control{
+    font-size: 1.3em;
+    color: blue
+}
+textarea.form-control {
+    height: 211px;
+    width: 630px;
+    /* margin-top: px;*/
+}
+.submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    color: black;
+}
+/*a propos and card */
+#propos{
+    text-align: center;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    letter-spacing: initial;
+}
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem!important;
+}
+.card{
+    border: 1px solid blueviolet;
+}
+i{
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 35px;
+    height: 22px;
+    color: blueviolet;
+    image-resolution: 22px;
+}
+/* events */
+.img1{
+    background-image: url(../res/ev1.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.img2{
+    background-image: url(../res/ev2.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.img3{
+    background-image: url(../res/ev3.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.img4{
+    background-image: url(../res/ev4.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.img5{
+    background-image: url(../res/ev5.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.img6{
+    background-image: url(../res/ev6.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid brown;
+    margin-bottom: 22px;
+    border-radius: 1px;
+}
+.btnn{
+    display: none;
+}
+.modal{
+    max-height: 150px !important;
+}
+
+.cardt{
+    text-align: center!important;
+}
+.card-img-top{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-right: 85px;
+    margin-bottom: 25px;
+    margin-top: 16px;
+}
+/*text index team cotact */
+.textpage{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: black;
+    /* border: 3px solid #f1f1f1; */
+    font-weight: bold;
+    position: relative;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 82%;
+    padding: 7px;
+    text-align: center;
+    font-size: xx-large;
+}
